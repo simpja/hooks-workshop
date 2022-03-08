@@ -14,6 +14,11 @@ Vi skal se på eksempler og oppgaver for følgende Hooks:
 6. useContext (?)
 7. useRef
 
+For hvert hook vil vi gjøre følgende prosess:
+
+![image](https://user-images.githubusercontent.com/29545646/157309157-c14ccdbb-86e3-4b27-9466-b3c6709a0524.png)
+
+
 ## Hvordan komme i gang
 
 1. Klon dette prosjektet til din maskin: `git clone <url>`
