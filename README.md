@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Workshop om React Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Prosjektet er laget for faggruppemøtet 22.03.2022 som holdes av Gabriel Wallin og Simen Pjaaten.
 
-## Available Scripts
+Workshop'en bygger videre på [Hooks og fetch intro]<https://github.com/robertkittilsen/hooks-and-fetch-intro> av Robert Kittelsen og Caroline Odden, takk til de!
 
-In the project directory, you can run:
+Vi skal se på eksempler og oppgaver for følgende Hooks:
 
-### `npm start`
+1. useState
+2. useEffect
+3. customHook
+4. useCallback
+5. useMemo
+6. useContext (?)
+7. useRef
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Hvordan komme i gang
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Klon dette prosjektet til din maskin: `git clone <url>`
+2. Naviger til prosjektmappen og skriv `npm install` i terminal
+3. For å starte prosjektet skriv `npm start` i terminal. Etter en liten stund vil prosjektet være tilgjengelig på `localhost:3000`
 
-### `npm test`
+----- UNDER DETTE ER KOPIERT FRA ROBERT -------
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Presentasjon
 
-### `npm run build`
+Tilhørende presentasjon finner du som `.pptx` og `.pdf` i mappen `src/presentasjon`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Oppgaver
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Når du starter dette prosjektet er det komponenten "AnnoyingButton" som vises.
+Etter du har lekt deg litt med denne kan du navigere til `App.js` og kommentere ut `<AnnoyingButton>` i funskjonen "UseStateEksempler()".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Finn så oppgavene i mappen "oppgaver" og fjern kommentaren rundt oppgaven du begynner med i `App.js` under funksjonen "Oppgaver".
 
-### `npm run eject`
+I selve oppgaven vil du finne en forklarende tekst på hva du skal gjøre.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Lykke til!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Eksempler
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Fasit
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Fasit til oppgavene ligger i mappen "fasit" med tilsvarende oppgave nummer.
+Prøv å unngå å smugtitte på fasiten, ta heller en titt på den når du mener du har løst oppgaven :)
 
-## Learn More
+Sitter du fast, spør gjerne sidemann eller Robert og Caroline.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Lykke til!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Ressurser for videre læring
 
-### Code Splitting
+### Hooks:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- https://reactjs.org/docs/hooks-intro.html
+- https://reactjs.org/docs/hooks-reference.html
+- https://reactjs.org/docs/hooks-state.html
 
-### Analyzing the Bundle Size
+### Fetch:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+- https://www.freecodecamp.org/news/fetch-data-react/
