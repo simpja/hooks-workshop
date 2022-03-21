@@ -16,6 +16,7 @@ function Eksempler() {
 }
 
 function Oppgaver() {
+  // Oppgave 1 er repetisjon fra forrige workshop! Men gjør den gjerne om du føler du behøver treningen :)
   return (
     <>
       {/* <Oppgave1_useEffect /> */}
@@ -30,8 +31,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Eksempler />
-        {/* <Oppgaver /> */}
+        {/* <Eksempler /> */}
+        <Oppgaver />
         {/* <Fasit /> */}
       </header>
     </div>

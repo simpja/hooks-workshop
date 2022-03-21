@@ -1,9 +1,3 @@
-/* Case 1: Trege funksjonskall
-    I situasjoner der man kaller en ren (samme resultat hver gang gitt samme input) 
-    og dyr(treg) funksjon er det lurt å cache resultatet. React har et hook som 
-    kalles useMemo (memoization) som memoiserer resultatet av en funksjon slik at
-    funksjonen ikke kalles på nytt dersom input ikke har endret seg.
-*/
 
 /* Case 2: Reference equality
     I situasjoner der man ønsker å sammenligne to arrays eller objects by value.
@@ -18,12 +12,37 @@
     resultatet fra useMemo'en i stedet, og du vil effektivt få en sammenligning by value.
 */
 
+import { useEffect } from "react"
+
 const Oppgave2_useMemo = () => {
 
+    const peopleHobbies = [
+        {
+            name: 'Simon',
+            hobby: 'guitar'
+        },
+        {
+            name: 'Caroline',
+            hobby: 'Zelda'
+        },
+        {
+            name: 'Hein',
+            hobby: 'drinking games'
+        },
+    ]
+
+    useEffect(() => {
+        console.log('I am running again!');
+    },
+    [peopleHobbies])
 
     return (
         <div>
-            <h1>Oppgave2_useMemo</h1>
+            <h1>Litt om oss i faggruppa</h1>
+            <h2>Folks hobbyer</h2>
+            <ul>
+                {peopleHobbies.map(ph => <li key={ph.name+ph.hobby}>{`${ph.name} driver med ${ph.hobby}`}</li>)}
+            </ul>
         </div>
     )
 }
