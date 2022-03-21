@@ -17,3 +17,15 @@
     være avhengig av eventuelle parametre i objektet/arrayet. useEffecten kan referere
     resultatet fra useMemo'en i stedet, og du vil effektivt få en sammenligning by value.
 */
+
+const Oppgave2_useMemo = () => {
+
+
+    return (
+        <div>
+            <h1>Oppgave2_useMemo</h1>
+        </div>
+    )
+}
+
+export default Oppgave2_useMemo

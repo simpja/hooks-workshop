@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export function Oppgave2_useEffect() {
+const Oppgave1_useEffect = () => {
   // Her skal du lage en komponent som viser en tilfeldig
   // Chuck Norris vits!
 
@@ -37,3 +37,5 @@ export function Oppgave2_useEffect() {
     </div>
   );
 }
+
+export default Oppgave1_useEffect
