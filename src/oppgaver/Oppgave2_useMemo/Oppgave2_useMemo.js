@@ -11,6 +11,17 @@
     være avhengig av eventuelle parametre i objektet/arrayet. useEffecten kan referere
     resultatet fra useMemo'en i stedet, og du vil effektivt få en sammenligning by value.
 */
+
+// OPPGAVE 2 - useMemo
+//
+// Her har du en liten liste med folk i faggruppe, og deres hobbyer
+// I tillegg til navn og hobby ønsker vi selvfølgelig å vise hvilken faggruppe de er med i
+// faggruppa ligger i fagGruppe-objektet, og vi later som om det er noe som kan endre seg
+//
+// Dette eksemplet er ikke veldig bra. Men vi håper du kan lære deg å kjenne igjen denne type feil, hvorfor det skjer, og hvordan man løser det!
+//
+// Når du utkommenterer fagGruppe vil du fort se hva som går galt!
+
 import { useMemo } from "react";
 import { useState, useEffect } from "react";
 import HobbyList from "./HobbyList";
